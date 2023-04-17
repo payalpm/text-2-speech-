@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text-to-Speech</title>
+	<link rel="stylesheet" type="text/css" href="/t2s/styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Text-to-Speech</h1>
+		<label for="text">Enter text:</label>
+		<textarea id="text"></textarea>
+		<label for="lang">Select language:</label>
+		<select id="lang">
+			<option value="en">English</option>
+			
+		</select>
+		<button id="speak">Speak</button>
+		<audio id="audio"></audio>
+		<a id="downloadLink" download="text-to-speech.mp3"><button id="download">Download MP3</button></a>
+	</div>
+	<script src="/t2s/script.js"></script>
+</body>
+</html>
